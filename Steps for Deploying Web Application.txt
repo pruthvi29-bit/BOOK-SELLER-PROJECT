@@ -1,0 +1,27 @@
+Download latest maven
+
+download jdk
+
+maven already downloaded and extracted
+
+
+aws s3 cp ~/environment/book-seller/target/book-seller-1.0.0.war s3://book-seller-bucket/ForBeanstalk/
+
+Change the bucket name
+
+Check s3 bucket 
+
+In the mean time create Aurora-MySQL Database Instance
+
+default security group contains inbound rule MySQL/Aurora---anywhere ipv4 and ipv6
+
+Wait until database is created
+
+Database,Beanstalk Environment Available now
+
+
+Successfully Completed Deploying the Java Application with RDS using Elastic BeanStalk
+
+Now Deallocate Resources.
+
+After some time all Resources will be deleted.
